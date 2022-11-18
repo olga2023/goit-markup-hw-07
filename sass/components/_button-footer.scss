@@ -1,0 +1,22 @@
+.button-footer {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    gap: 10px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: var(--color-brand);
+    color: var(--color-background);
+    cursor: pointer;
+}
+
+.button__footer-icon {
+    fill: var(--color-background);
+}

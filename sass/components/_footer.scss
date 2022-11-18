@@ -1,0 +1,126 @@
+ .footer {
+     background: var(--color-section);
+     text-align: left;
+     padding-top: 60px;
+     padding-bottom: 60px;
+ }
+
+ .footer__all {
+     display: flex;
+     gap: 70px;
+     align-items: baseline;
+ }
+
+ .footer__link {
+     text-decoration: none;
+     color: var(--color-brand);
+     line-height: 1.2;
+     font-family: Raleway;
+     font-size: 26px;
+     letter-spacing: 0.03em;
+     display: inline-block;
+     margin-bottom: 20px;
+     display: block;
+     text-align: left;
+ }
+
+.footer__address {
+    text-align: left;
+    display: block;
+    margin-bottom: 6px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.footer__link-address {
+    color: var(--color-background);
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.71;
+    font-style: normal;
+    transition: color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: var(--color-brand);
+    }
+
+    &:focus {
+        color: var(--color-active);
+    }
+
+    &:active {
+        color: var(--color-active);
+    }
+}
+
+ .kontakt__footer {
+     color: rgba(255, 255, 255, 0.6);
+ }
+
+ .footer__link-information {
+     color: rgba(255, 255, 255, 0.6);
+     text-decoration: none;
+     font-weight: 400;
+     line-height: 1.71;
+     font-style: normal;
+     transition: color 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+     &:hover {
+         color: var(--color-brand);
+     }
+
+     &:focus {
+         color: var(--color-active);
+     }
+
+     &:active {
+         color: var(--color-active);
+     }
+ }
+
+ .footer__social {
+     width: 206px;
+     height: 80px;
+ }
+
+ .footer__text-net {
+     color: var(--color-background);
+     text-transform: uppercase;
+     line-height: 1.17;
+     font-size: 14px;
+     font-weight: 700;
+     letter-spacing: 0.03em;
+     padding: 0;
+     width: 116px;
+     margin: 0 auto 20px 0;
+ }
+
+ .footer__social-list {
+     display: flex;
+     gap: 10px;
+ }
+
+ .footer__social-link {
+     height: 44px;
+     width: 44px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     cursor: pointer;
+     background-color: rgba(255, 255, 255, 0.1);
+     transition: background-color 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+     &:hover {
+         background-color: var(--color-brand);
+     }
+ }
+
+ .footer__icon {
+     fill: var(--color-background);
+ }

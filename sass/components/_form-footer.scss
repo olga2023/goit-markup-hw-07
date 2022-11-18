@@ -1,0 +1,29 @@
+.form__footer-one {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    justify-content: center;
+}
+
+.footer__subs-label {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--color-background);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+}
+
+.footer__subs-input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: var(--color-section);
+}
